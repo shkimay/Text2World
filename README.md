@@ -19,7 +19,8 @@ We design a **user-centered prompt template** for Text-to-World generation and e
 **Metrics**
 - DOVER (Perceptual Realism)
 - LPIPS (Dynamics)
-    - The dynamics score is computed as:
+
+The dynamics score is computed as:
 
 $$
 \text{Dynamics}_{\text{video}}

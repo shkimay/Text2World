@@ -14,18 +14,20 @@ We design a **user-centered prompt template** for Text-to-World generation and e
 
 ## Evaluation
 **Model:** [COSMOS-predict2 Text2World](https://github.com/nvidia-cosmos/cosmos-predict2) (generation), GPT-4o (prompt generator)  
-**Dataset:** PhyGenBench (physics commonsense scenarios)
+**Dataset:** [PhyGenBench](https://github.com/OpenGVLab/PhyGenBench) (physics commonsense scenarios)
 
 **Metrics**
 - DOVER (Perceptual Realism)
 - LPIPS (Dynamics)
-    - The dynamics score is computed as $$
-\text{Dynamics}_{\text{video}}
-=
-\frac{1}{T-1}
-\sum_{t=1}^{T-1}
-\text{LPIPS}(F_t, F_{t+1})
-$$
+    - The dynamics score is computed as
+      $$
+      \text{Dynamics}_{\text{video}}
+      =
+      \frac{1}{T-1}
+      \sum_{t=1}^{T-1}
+      \text{LPIPS}(F_t, F_{t+1})
+      $$
+      
     - Given a video sequence of $T$ frames, we define the temporal dynamics score as the average LPIPS distance between consecutive frame pairs $(F_t, F_{t+1})$. Since LPIPS measures perceptual dissimilarity between two images(with lower values indicating higher similarity), larger LPIPS values correspond to greater frame-to-frame visual changes and are therefore interpreted as indicating stronger temporal dynamics.
       
 - BLIP-ITM (Controllability)

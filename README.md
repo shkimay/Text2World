@@ -5,7 +5,8 @@ We design a **user-centered prompt template** for Text-to-World generation and e
 
 **Template components**
 - Task Instruction
-- Prompt Conditions & Constraints
+- Prompt Conditions
+- Target Scene
 - Prompt Style
 - Query (user intent)
 

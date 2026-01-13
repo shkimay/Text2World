@@ -26,6 +26,8 @@ We design a **user-centered prompt template** for Text-to-World generation and e
 
 ![Result-comparison](assets/result1.png)
 
+- **initial prompt:** Base prompt → Text2World 
+- **Proposed:** Template → GPT-4o → Text2World
 
 ![Result-score](assets/result2.png)
 

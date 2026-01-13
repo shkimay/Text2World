@@ -20,6 +20,7 @@ We design a **user-centered prompt template** for Text-to-World generation and e
 - DOVER (Perceptual Realism)
 - LPIPS (Dynamics)
     - The dynamics score is computed as:
+
 $$
 \text{Dynamics}_{\text{video}}
 =
@@ -27,6 +28,7 @@ $$
 \sum_{t=1}^{T-1}
 \text{LPIPS}(F_t, F_{t+1})
 $$
+
     - Given a video sequence of $T$ frames, we define the temporal dynamics score as the average LPIPS distance between consecutive frame pairs $(F_t, F_{t+1})$. Since LPIPS measures perceptual dissimilarity between two images(with lower values indicating higher similarity), larger LPIPS values correspond to greater frame-to-frame visual changes and are therefore interpreted as indicating stronger temporal dynamics.
       
 - BLIP-ITM (Controllability)

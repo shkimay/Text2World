@@ -1,5 +1,7 @@
 ## Analyzing the Impact of Template-Based Prompting on Text-to-World Simulation Quality
 
+[Research Overview](assets/framework.png)
+
 ## Method Overview
 We design a **user-centered prompt template** for Text-to-World generation and evaluate how template factors affect overall video quality.
 
@@ -11,7 +13,7 @@ We design a **user-centered prompt template** for Text-to-World generation and e
 - Query (user intent)
 
 # Evaluation
-**Model:** COSMOS-predict2 Text2World (generation), GPT-4o (prompt generator)  
+**Model:** [COSMOS-predict2 Text2World](https://github.com/nvidia-cosmos/cosmos-predict2) (generation), GPT-4o (prompt generator)  
 **Dataset:** PhyGenBench (physics commonsense scenarios)
 
 **Metrics**
@@ -21,6 +23,9 @@ We design a **user-centered prompt template** for Text-to-World generation and e
 - PhyGenEval (VQA-based physical plausibility)
 
 ## Results
+
+[Result-comparison](assets/result1.png)
+[Result-score](assets/result2.png)
 
 ## Scope of This Repository
 

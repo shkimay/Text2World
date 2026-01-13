@@ -25,6 +25,7 @@ We design a **user-centered prompt template** for Text-to-World generation and e
 ## Results
 
 ![Result-comparison](assets/result1.png)
+
 ![Result-score](assets/result2.png)
 
 ## Scope of This Repository

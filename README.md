@@ -1,6 +1,6 @@
 ## Analyzing the Impact of Template-Based Prompting on Text-to-World Simulation Quality
 
-[Research Overview](assets/framework.png)
+![Research Overview](assets/framework.png)
 
 ## Method Overview
 We design a **user-centered prompt template** for Text-to-World generation and evaluate how template factors affect overall video quality.
@@ -24,8 +24,8 @@ We design a **user-centered prompt template** for Text-to-World generation and e
 
 ## Results
 
-[Result-comparison](assets/result1.png)
-[Result-score](assets/result2.png)
+![Result-comparison](assets/result1.png)
+![Result-score](assets/result2.png)
 
 ## Scope of This Repository
 

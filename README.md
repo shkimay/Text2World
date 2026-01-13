@@ -17,9 +17,9 @@ We design a **user-centered prompt template** for Text-to-World generation and e
 **Dataset:** PhyGenBench (physics commonsense scenarios)
 
 **Metrics**
-- DOVER (Perceptual realism / technical quality)
-- LPIPS (Dynamics / temporal consistency proxy)
-- BLIP-ITM (prompt-video alignment / controllability)
+- DOVER (Perceptual realism)
+- LPIPS (Dynamics)
+- BLIP-ITM (controllability)
 - PhyGenEval (VQA-based physical plausibility)
 
 ## Results

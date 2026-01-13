@@ -17,16 +17,25 @@ We design a **user-centered prompt template** for Text-to-World generation and e
 **Dataset:** PhyGenBench (physics commonsense scenarios)
 
 **Metrics**
-- DOVER (Perceptual realism)
+- DOVER (Perceptual Realism)
 - LPIPS (Dynamics)
-- BLIP-ITM (controllability)
-- PhyGenEval (VQA-based physical plausibility)
+- BLIP-ITM (Controllability)
+- PhyGenEval (Physical Plausibility)
 
 ## Results
 
 ![Result-comparison](assets/result1.png)
-.
+
 ![Result-score](assets/result2.png)
+
+### Two-Sample T-test
+
+| Metric | N | Base Prompt | Template-based Prompt | P-value |
+|------|------------|----------------------|
+| **PhyGenEval**(Physical Plausibility) ↑ | 93 | 4.54 | **6.47** | **p < 0.001** |
+| **DOVER**(Perceptual Realism) ↑ | 93 | 77.8 | **83.1** | **p < 0.001** |
+| **LPIPS**(Dynamics) ↑ | 93 | 0.1151 | **0.1688** | **p < 0.001** |
+| **BLIP-ITM**(Controllability) ↓ | 93 | **0.941** | 0.827 | **p < 0.001** |
 
 ## Scope of This Repository
 

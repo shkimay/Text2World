@@ -14,6 +14,8 @@ We design a **user-centered prompt template** for Text-to-World generation and e
 - Prompt Style
 - Query (user intent)
 
+![prompt](assets/prompt.png）
+
 ## Evaluation
 **Model:** [COSMOS-predict2 Text2World](https://github.com/nvidia-cosmos/cosmos-predict2) (generation), GPT-4o (prompt generator)  
 **Dataset:** [PhyGenBench](https://github.com/OpenGVLab/PhyGenBench) (physics commonsense scenarios)

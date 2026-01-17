@@ -47,7 +47,7 @@ Given a video sequence of $T$ frames, we define the temporal dynamics score as t
 
 ### Two-Sample T-test
 
-| Metric | N | Base Prompt | Template-based Prompt | P-value |
+| Metric | N | Initial Prompt | Proposed Template-based Prompt | P-value |
 |:--|:--:|:--:|:--:|:--:|
 | PhyGenEval (Physical Plausibility) ↑ | 93 | 4.54 | **6.47** | p < 0.001 |
 | DOVER (Perceptual Realism) ↑ | 93 | 77.8 | **83.1** | p < 0.001 |

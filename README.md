@@ -2,8 +2,6 @@
 
 ![Research Overview](assets/framework.png)
 
-## Motivation
-
 ## Methodology
 We design a **user-centered prompt template** for Text-to-World generation and evaluate how template factors affect overall video quality.
 
@@ -66,8 +64,6 @@ While preliminary experiments explored comparisons between LLM-generated base pr
 differences and are not included in this repository.
 
 Accordingly, this repository presents results from the finalized experimental setting used in our reported study.
-
-## Limitations & Future Work
 
 # References
 We used the code from following repositories: [PhyGenBench](https://github.com/OpenGVLab/PhyGenBench), [DOVER](https://github.com/VQAssessment/DOVER), [LPIPS](https://github.com/richzhang/PerceptualSimilarity), [LAVIS](https://github.com/salesforce/LAVIS)
